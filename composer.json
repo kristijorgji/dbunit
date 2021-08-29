@@ -20,11 +20,11 @@
         "issues": "https://github.com/sebastianbergmann/dbunit/issues"
     },
     "require": {
-        "php": "^7.1",
-        "phpunit/phpunit": "^7.0",
-        "symfony/yaml": "^3.0 || ^4.0",
+        "php": "^7.4|^8.0",
         "ext-pdo": "*",
-        "ext-simplexml": "*"
+        "ext-simplexml": "*",
+        "phpunit/phpunit": "^9.5",
+        "symfony/yaml": "^5.3"
     },
     "autoload": {
         "classmap": [
